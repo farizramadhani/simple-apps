@@ -11,18 +11,15 @@ print("Hello, World!")
 
 print("Please, input your first name:"); let firstName = readLine()!
 print("Please, input your last name:"); let lastName = readLine()!
-print("Please, input your age:"); let age = readLine()!
 print("Please, input your address:"); let address = readLine()!
-print("Please, input your job:"); let job = readLine()!
+print("And, input your job:"); let job = readLine()!
 
-// MARK: Menggabungkan nama depan dan nama belakang.
+// Combine first and last names.
 let fullName = firstName + " " + lastName
 
-print("----------------------------------")
-
-// MARK: Mencetak program yang Anda buat ke dalam Terminal.
+// Print the program you created into Terminal.
+print("=======================================")
 print("Do you now \(fullName)?")
 print("\(firstName) is a \(job).")
-print("Now, he/she is \(age) years old and live in \(address).")
-
-print("----------------------------------")
+print("Now, \(firstName) lives in \(address).")
+print("=======================================")
